@@ -2,6 +2,8 @@
 
 A small Blender add-on and tooling to turn images into 3D assets.
 
+---
+
 # Developer Setup
 
 ## Prerequisites
