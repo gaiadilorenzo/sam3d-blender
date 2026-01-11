@@ -4,10 +4,10 @@ bl_info = {
     "category": "Object",
 }
 
-from .preferences import SAM3DPreferences
-from .panel import SAM3DSceneProps, SAM3D_OT_run, SAM3D_PT_panel
+from .preferences import SAM3DPreferences  # noqa: E402
+from .panel import SAM3DSceneProps, SAM3D_OT_run, SAM3D_PT_panel  # noqa: E402
 
-import bpy
+import bpy  # noqa: E402
 
 classes = [
     SAM3DPreferences,
