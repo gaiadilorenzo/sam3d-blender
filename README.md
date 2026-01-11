@@ -4,9 +4,7 @@ A small Blender add-on and tooling to turn images into 3D assets.
 
 # Developer Setup
 
-## Installation
-
-### Prerequisites
+## Prerequisites
 
 Clone the required repositories and start their API servers.
 
@@ -35,7 +33,6 @@ Follow the instructions in the README files to start the REST API servers:
 
 Make sure both servers are running before using the Blender add-on.
 
----
 
 ## Blender Add-on Development
 
@@ -56,7 +53,6 @@ Select your Blender executable when prompted.
 
 The add-on will be loaded automatically when Blender starts.
 
----
 
 ### Hot Reloading the Add-on
 
@@ -66,7 +62,6 @@ This disables and re-enables the add-on internally, calling `unregister()` and `
 
 Ensure your add-on initializes all state inside `register()` so reload works correctly.
 
----
 
 ### Configuration
 
@@ -80,7 +75,6 @@ In Blender:
 
 These should match the servers started from the `Installation` section.
 
----
 
 ## Linters & Formatting
 
@@ -118,6 +112,7 @@ Review the changes and commit them.
 ruff format .
 ruff check .
 
+---
 
 # Contributing 
 
