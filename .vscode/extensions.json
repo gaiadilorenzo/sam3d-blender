@@ -1,0 +1,9 @@
+{
+    // Recommended extensions for this workspace. VS Code will prompt users to install them.
+    "recommendations": [
+        "charliermarsh.ruff",
+        "ms-python.python",
+        "JacquesLucke.blender-development",
+        "tamasfe.even-better-toml"
+    ]
+}
